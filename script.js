@@ -12,7 +12,7 @@ document.getElementById('container').appendChild(renderer.domElement);
 
 // Load GLB model
 const loader = new THREE.GLTFLoader();
-loader.load('path/to/your/model.glb', (gltf) => {
+loader.load('inmybedroom.glb', (gltf) => {
   scene.add(gltf.scene);
 });
 
